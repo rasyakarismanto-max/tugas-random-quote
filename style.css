@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.video-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Membuat video berada di lapisan paling belakang */
+    object-fit: cover; /* Agar video pas dan tidak gepeng */
+}
+
+.container {
+width: 100%;
+    max-width: 350px;
+    background: transparent; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+button {
+   border: none;
+   outline: none;
+   padding: 16px 50px;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    justify-content: center;
+
+}
+
+button:hover {
+    background: linear-gradient(90deg, #e52e71, #ff8a00);
+}
